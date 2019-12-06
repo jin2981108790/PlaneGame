@@ -1,0 +1,11 @@
+# PlaneGame
+## PlaneGameService下的RequestPlaneGameServer类是请求类
+### request()函数
+#### 没有参数时请求服务器前10名
+#### 传入一个整形参数时请求前该值名玩家
+#### 传入一个Player类玩家类时,插入玩家类并返回该成绩排名,和服务器前10名
+#### 传入一个Player类和一整形时,插入玩家类并返回该成绩排名,和服务器前整形值名
+### queryTopScoreByName()函数
+#### 传入字符串name参数,查询该name的最高分及排名
+### isNameEmtpy()函数
+#### 传入字符串name参数,判断该name是否存在
